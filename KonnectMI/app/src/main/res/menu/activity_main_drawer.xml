@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_home_title" />
+        <item
+            android:id="@+id/nav_Papers"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_past_paper_title" />
+        <item
+            android:id="@+id/nav_Problem"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_problem_and_solution_title"/>
+        <item
+            android:id="@+id/nav_Test"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_test_simulator_title"/>
+
+        <item
+            android:id="@+id/nav_Friends"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_friends_title" />
+        <item
+            android:id="@+id/nav_Favourite"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_favourite_title" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/action_settings" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_share_with_friends_title" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/nav_send_feedback_title" />
+        </menu>
+    </item>
+
+</menu>

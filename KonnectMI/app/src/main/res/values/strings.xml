@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">KonnectMI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_problem_and_solution_title">Problem/Solution</string>
+    <string name="nav_home_title">Home</string>
+    <string name="nav_past_paper_title">PastPaper</string>
+    <string name="nav_test_simulator_title">Test Simulator</string>
+    <string name="nav_friends_title">Friends</string>
+    <string name="nav_favourite_title">Favourites</string>
+    <string name="nav_send_feedback_title">Send Feedback</string>
+    <string name="nav_share_with_friends_title">Share with friends</string>
+    <string name="action_completed_tests_title">Un/Completed Tests</string>
+    <string name="action_my_questions_titles">My Questions</string>
+    <string name="action_my_answeres_title">My Answeres</string>
+
+</resources>
